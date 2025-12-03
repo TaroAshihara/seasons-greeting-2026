@@ -187,7 +187,7 @@ const App: React.FC = () => {
                 {/* <p className="text-[10px] md:text-2xl font-light text-white tracking-[0.25em] uppercase">
                     TARO ASHIHARA ARCHITECTS
                 </p> */}
-                <img  src='./public/img/00.png' />
+                <public/img  src='./public/img/00.png' />
             </div>
           </div>
 

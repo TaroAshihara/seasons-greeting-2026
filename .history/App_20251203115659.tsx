@@ -147,7 +147,7 @@ const App: React.FC = () => {
                   isActive ? 'scale-105 blur-0' : 'scale-115 blur-lg'
                 }`}
               >
-                 <img 
+                 <public/img 
                    src={item.image} 
                    alt={item.title} 
                    className="w-full h-full object-cover"
@@ -187,7 +187,7 @@ const App: React.FC = () => {
                 {/* <p className="text-[10px] md:text-2xl font-light text-white tracking-[0.25em] uppercase">
                     TARO ASHIHARA ARCHITECTS
                 </p> */}
-                <img  src='./public/img/00.png' />
+                <public/img  src='./public/img/00.png' />
             </div>
           </div>
 
