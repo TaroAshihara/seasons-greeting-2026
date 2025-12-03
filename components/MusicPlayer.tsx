@@ -20,12 +20,12 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ isPlaying, onToggle }) => {
         {isPlaying ? (
           <>
             <Volume2 className="w-5 h-5 animate-pulse" />
-            <span className="text-sm font-medium hidden sm:block font-serif tracking-widest">ON AIR</span>
+            {/* <span className="text-sm font-medium hidden sm:block font-serif tracking-widest"></span> */}
           </>
         ) : (
           <>
             <VolumeX className="w-5 h-5" />
-            <span className="text-sm font-medium hidden sm:block font-serif tracking-widest">MUSIC OFF</span>
+            {/* <span className="text-sm font-medium hidden sm:block font-serif tracking-widest"></span> */}
           </>
         )}
       </button>
