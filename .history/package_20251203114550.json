@@ -1,0 +1,17 @@
+{
+  "name": "lumina-seasons",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  // ▼ 追加（推奨）
+  "homepage": "https://あなたのユーザーID.github.io/リポジトリ名/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    // ▼ 以下の2行を追加
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  // ... (dependenciesなどはそのまま)
+}
